@@ -6,11 +6,9 @@ import { pool } from '../config';
 
 import bcrypt from 'bcrypt';
 
-import server from '../source/server';
+import server from './server';
 
-import createUser from '../controllers/userController';
-
-import users from '../models/user';
+import users from './user';
 
 const expect = chai.expect;
 
