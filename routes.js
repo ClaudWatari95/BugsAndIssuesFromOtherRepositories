@@ -1,6 +1,6 @@
 import express from 'express';
 
-import authAdmin from '../auth/auth';
+import authAdmin from './auth';
 
 import userController from './ctrl';
 
